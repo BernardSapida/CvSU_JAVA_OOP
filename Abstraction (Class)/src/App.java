@@ -4,11 +4,15 @@ public class App {
         Cat cat = new Cat("Kitty", "Black", "Ragdoll", 5);
 
         System.out.println("\n=============================================================\n");
+        dog.setAge(10);
         dog.displayInformations();
         dog.makeSound();
+        dog.walk();
         System.out.println("\n=============================================================\n");
+        cat.setAge(15);
         cat.displayInformations();
         cat.makeSound();
+        cat.walk();
         System.out.println("\n=============================================================\n");
     }
 }
